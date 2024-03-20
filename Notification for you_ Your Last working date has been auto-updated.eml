@@ -1,0 +1,639 @@
+Received: from KL1PR02MB7826.apcprd02.prod.outlook.com (2603:1096:820:12f::8)
+ by PSAPR02MB5032.apcprd02.prod.outlook.com with HTTPS; Tue, 12 Mar 2024
+ 17:09:19 +0000
+Received: from SG2PR02CA0110.apcprd02.prod.outlook.com (2603:1096:4:92::26) by
+ KL1PR02MB7826.apcprd02.prod.outlook.com (2603:1096:820:12f::8) with Microsoft
+ SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.7362.33; Tue, 12 Mar 2024 17:09:18 +0000
+Received: from SG2PEPF000B66CD.apcprd03.prod.outlook.com
+ (2603:1096:4:92:cafe::9a) by SG2PR02CA0110.outlook.office365.com
+ (2603:1096:4:92::26) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.7292.32 via Frontend
+ Transport; Tue, 12 Mar 2024 17:09:18 +0000
+Authentication-Results: spf=pass (sender IP is 20.204.251.184)
+ smtp.mailfrom=cognizant.com; dkim=none (message not signed)
+ header.d=none;dmarc=pass action=none header.from=cognizant.com;
+Received-SPF: Pass (protection.outlook.com: domain of cognizant.com designates
+ 20.204.251.184 as permitted sender) receiver=protection.outlook.com;
+ client-ip=20.204.251.184; helo=mail.cognizant.com; pr=E
+Received: from mail.cognizant.com (20.204.251.184) by
+ SG2PEPF000B66CD.mail.protection.outlook.com (10.167.240.27) with Microsoft
+ SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.7386.12 via Frontend Transport; Tue, 12 Mar 2024 17:09:18 +0000
+Received: from CAZINCIPV788555.cts.com (10.153.54.5) by
+ CAZINCIPV788709.cts.com (10.153.52.180) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.2.1258.28; Tue, 12 Mar 2024 17:09:11 +0000
+Received: from CAZINCIPV788555.cts.com (10.153.54.5) by
+ CAZINCIPV788555.cts.com (10.153.54.5) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.2.1258.28; Tue, 12 Mar 2024 17:09:08 +0000
+Received: from CAZINCIPV788918.cts.com (10.153.54.7) by
+ CAZINCIPV788555.cts.com (10.153.54.5) with Microsoft SMTP Server id
+ 15.2.1258.28 via Frontend Transport; Tue, 12 Mar 2024 17:09:08 +0000
+Received: from CTSINAZPDCBAJ05 (10.153.62.55) by CAZINCIPV788934.cts.com
+ (10.153.54.7) with Microsoft SMTP Server id 15.2.1258.28; Tue, 12 Mar 2024
+ 17:09:08 +0000
+From: <HumanResources@cognizant.com>
+To: <manojkumar.ps@cognizant.com>
+CC: <janaki.palanisamy@cognizant.com>, <kumaravel.sakthivelu@cognizant.com>
+Reply-To: <1CommEmailPRD@cognizant.com>
+Date: Tue, 12 Mar 2024 22:39:08 +0530
+Subject: Notification for you: Your Last working date has been auto-updated
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+Message-ID: <ee1ea0fd-a0ec-4969-93ff-50ade7bd3bf9@CAZINCIPV788934.cts.com>
+Return-Path: HumanResources@cognizant.com
+Received-SPF: PermError (CAZINCIPV788934.cts.com: domain of
+ HumanResources@cognizant.com used an invalid SPF mechanism)
+X-CrossPremisesHeadersFilteredBySendConnector: CAZINCIPV788934.cts.com
+X-OrganizationHeadersPreserved: CAZINCIPV788934.cts.com
+X-OrganizationHeadersPreserved: CAZINCIPV788555.cts.com
+X-MS-Exchange-Organization-ExpirationStartTime: 12 Mar 2024 17:09:18.4510
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Exchange-Organization-Network-Message-Id:
+ 5cf8034b-b39e-4fbe-c775-08dc42b7273c
+X-EOPAttributedMessage: 0
+X-MS-Exchange-Organization-MessageDirectionality: Originating
+X-MS-Exchange-Organization-AuthSource: CAZINCIPV788555.cts.com
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 10
+X-CrossPremisesHeadersPromoted: SG2PEPF000B66CD.apcprd03.prod.outlook.com
+X-CrossPremisesHeadersFiltered: SG2PEPF000B66CD.apcprd03.prod.outlook.com
+X-MS-PublicTrafficType: Email
+X-MS-TrafficTypeDiagnostic:
+ SG2PEPF000B66CD:EE_|KL1PR02MB7826:EE_|PSAPR02MB5032:EE_
+X-OriginatorOrg: mail.cognizant.com
+X-MS-Office365-Filtering-Correlation-Id: 5cf8034b-b39e-4fbe-c775-08dc42b7273c
+X-MS-Exchange-AtpMessageProperties: SA|SL
+X-MS-Exchange-Organization-SCL: 1
+X-Microsoft-Antispam: BCL:0;
+X-Forefront-Antispam-Report:
+ CIP:20.204.251.184;CTRY:IN;LANG:en;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:mail.cognizant.com;PTR:cogcihyedgeobptr1.centralindia.cloudapp.azure.com;CAT:NONE;SFS:;DIR:INT;
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 12 Mar 2024 17:09:18.3104
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: 5cf8034b-b39e-4fbe-c775-08dc42b7273c
+X-MS-Exchange-CrossTenant-Id: de08c407-19b9-427d-9fe8-edf254300ca7
+X-MS-Exchange-CrossTenant-OriginalAttributedTenantConnectingIp: TenantId=de08c407-19b9-427d-9fe8-edf254300ca7;Ip=[20.204.251.184];Helo=[mail.cognizant.com]
+X-MS-Exchange-CrossTenant-AuthSource: CAZINCIPV788555.cts.com
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-FromEntityHeader: HybridOnPrem
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: KL1PR02MB7826
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:01.2819245
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.7362.031
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(910001)(944506478)(944626604)(920097)(425001)(930097)(140003)(1420198);
+X-Microsoft-Antispam-Message-Info:
+	POp+xrkybsoE/2/kKq6X2FAtvGkd3DBpOZgB33EmjqoDBFW5Z1wIepw50O5Fy/teezuW1unRcKqjRI5m/PiDlPatGfW8/1DLty+TosROIUf8jg26UtYNrtiJZN2eKS4qmIVrVQfpRfkgwZO00ihWa96k7NHmzU8qfPZ5Zg+6eoqO5cdsEnTlJGVcOBq72/FuF2za0E3aV8UZikHRO9y+RRyT9IBcrd6pHknOKAx2mrv9XwAt0QBJ7pxvx6WB5SOfIB0VmguTdnPvnklmfLn7Ai96zbMfbe6Q5+yumOkMriQdQ3Dy0L86IYObd7AIvc1QqYF2UvuhnWDxo6I9fNhMPKBGXZR/MG0zFmLyTE0+f3J3esvXwDJK4lPrPsOFcsZvpSaa6UIMf8qQgD+v+YJHcw7W7g5VYefSNKfI0wepBq/85iWN09VJDpcYc/9SFuxbDE9jXBcgJQTQ2lsteoCawjFEno6MHGNUZjuYusynhbMQj2Td85mb68MiD76saUL9C0UjVkNyRZOKcBWKERdZUTF/JIGv+qfZPH69PLKa14yzMcjrnkqO9MnPTWZ1GvcnWPUkqOcTHoj7zk5zKqtG2LtbrYKmXPptLBLvk9836XxnHevJAVz6SBXJftCVwMsKTEii8fXqH/WxISRzBXt0j3hPSlI3jQiWelUxI91jFOtdkfS+xmcV/eMMcQvhjdf67n+fcm08vh55uxTX2IwmQmme5+fkA07i6FDNifLwucCPRi/c061PybrRwVUHcn0XmafzfJdCpI6PbOBf/ItMG2XzlfQAarWb3mtcckbu4uvw0qtfQT0EhzkaUv3ykdWY
+MIME-Version: 1.0
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.=
+w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns=3D"http://www.w3.=
+org/1999/xhtml"><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-ascii"=
+><title>One Cognizant Template</title>          <style type=3D"text/css">  =
+                        body{                  background-color: rgb(242,24=
+2,242);              }             body,            td,            th {    =
+          font-family: Arial,"Segoe UI", Verdana, Helvetica, sans-serif;   =
+           font-size: 14px;              color: #000048;              margi=
+n: 0px;            }            table,            td {              vertica=
+l-align: top;            }            a img {              border: 0px;    =
+        } .linkblock a{ text-decoration:underline}            a {          =
+    color: #2F78C4;              text-decoration: none;                    =
+  }            a:visited {              text-decoration: none !important;  =
+          }            a:focus {              text-decoration: none !import=
+ant;            }            a:hover {              text-decoration: none !=
+important;            }            .mail-container {              backgroun=
+d-color: white;              font-size: 14px;              color: #3e4c51; =
+             width: 100%;            }            .template-table {        =
+      border-collapse: collapse;            }            .template-table td=
+ {              padding: 8px 16px;              color: #000048;            =
+  border: 1px solid #7F7F7F;              font-size: 14px;            }  #R=
+equestInformation > td {    padding-top: 24px;}           a.mailtoLink {   =
+           color: #FFFFFF;              font-size: 14px;  font-weight: bold=
+;         }            .linkblock {              width: 216px;             =
+ background: #00B0F0;              color: #000048;              text-align:=
+ center;              padding: 10px 0;            }            .padding-xl =
+{              padding: 15px 32px;              background: white;         =
+   }            p.infopart {              padding: 3px 0;              colo=
+r: #000048;            }            h2 {              font-weight: bold;   =
+           color: #2F78C4;              font-size: 14px;     margin: 0;    =
+        }            .titlepart {              padding: 12px 32px;         =
+   background-color: white;  font-weight: bold;              color: #2F78C4=
+;              font-size: 14px;          }            .psnote {            =
+  padding: 15px 32px;              background-color: white;              fo=
+nt-size: 12px;              color: #53565A;            }            .foot-t=
+ab {              padding: 8px 32px;              /* background: #000048; *=
+/            }            .foot-img1 {              width: 100%;        pad=
+ding: 6px 6px 6px 32px;  background: white;           }            .foot-im=
+g2 {              width: 47px;              height: 50px;            }     =
+       #foot-txt {              text-align: left;              padding-left=
+: 20px;              color: #040506;              width: 420px;            =
+  height: 50px;              background-color: rgb(0, 0, 0);              f=
+ont-size: 14px;              text-overflow: clip;              overflow: hi=
+dden;            } #mobilityPromo{background-color: white}            #dyna=
+mic {              background-color: rgb(0, 0, 0);              width: 47px=
+;            }            .wide {              width: 650px;     }         =
+   .main-container {              margin: 0 auto;            }            #=
+headerimg {              height: 53px;            }            #headerimg t=
+d {              width: 256px;            }            /* new CSS */       =
+     #headerimg td {              background-color: rgb(0, 51, 160);       =
+     }   #RequestDetails{background-color: #FFFFFF}         #RequestDetails=
+ p {              color: #000048;              font-size: 14px;            =
+  line-height: 1.4;            }            #UnsubscribeSection {          =
+    color: #53565A;            }            #RequestOtherDetails p {       =
+       color: #000048;            } #RequestOtherDetails > td {            =
+  padding-top: 24px;            } #RequestOtherDetails p {              bac=
+kground-color: #FFFFFF;            } #valedictionSection td {              =
+padding-top: 24px;            }            #ApprovalMethods p {            =
+  color: #000048;            } #ApprovalMethods td {              padding-t=
+op: 24px;            }  #ApprovalMethods {              background-color: #=
+FFFFFF;            } #twoWayReplyButtons{              background-color: #F=
+FFFFF;            } #twoWayReplyButtons > td {padding-top: 24px;}          =
+   #valedictionSection p {              color: #000048;            }  #vale=
+dictionSection {            background-color: white;           } #RequestIn=
+formation{background-color: #FFFFFF;}           .linkblock {              b=
+order-left: 1px solid white;              border-right: 1px solid white;   =
+         }       #footerImage{            background-color: white;        }=
+          </style>        </head>              <body>          <table width=
+=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">            <tr>=
+              <td>                <center>                  <table class=3D=
+"wide" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"margin: 0 =
+auto;">                    <tr id=3D"headerImage">                      <td=
+>                        <table class=3D"wide" cellpadding=3D"0" cellspacin=
+g=3D"0" border=3D"0">                          <tr class=3D"wide" id=3D"hea=
+derimg">                            <td style=3D"background-color: #000048;=
+padding: 24px 32px">                              <img alt=3D"img left" src=
+=3D"https://1ct.es/343/Images/CognizantBrandLogo.png">                     =
+       </td>                                                </tr>          =
+              </table>                      </td>                    </tr> =
+                   <tr>                      <td>  <table width=3D"100%" bo=
+rder=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tr><td><div class=3D"mail-c=
+ontainer"><table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0">=0A=
+<tr id=3D"SaluationSection"><br>=0A=
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micr=
+osoft-com:office:office" xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" xmlns=3D"http:=
+//www.w3.org/TR/REC-html40"><head><meta name=3D"Generator" content=3D"Micro=
+soft Word 15 (filtered medium)"><style><!--=0A=
+/* Font Definitions */=0A=
+@font-face=0A=
+	{font-family:Wingdings;=0A=
+	panose-1:5 0 0 0 0 0 0 0 0 0;}=0A=
+@font-face=0A=
+	{font-family:"Cambria Math";=0A=
+	panose-1:2 4 5 3 5 4 6 3 2 4;}=0A=
+@font-face=0A=
+	{font-family:Calibri;=0A=
+	panose-1:2 15 5 2 2 2 4 3 2 4;}=0A=
+@font-face=0A=
+	{font-family:"Trebuchet MS";=0A=
+	panose-1:2 11 6 3 2 2 2 2 2 4;}=0A=
+/* Style Definitions */=0A=
+p.MsoNormal, li.MsoNormal, div.MsoNormal=0A=
+	{margin:0in;=0A=
+	margin-bottom:.0001pt;=0A=
+	font-size:11.0pt;=0A=
+	font-family:"Calibri",sans-serif;}=0A=
+a:link, span.MsoHyperlink=0A=
+	{mso-style-priority:99;=0A=
+	color:#0563C1;=0A=
+	text-decoration:underline;}=0A=
+a:visited, span.MsoHyperlinkFollowed=0A=
+	{mso-style-priority:99;=0A=
+	color:#954F72;=0A=
+	text-decoration:underline;}=0A=
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph=0A=
+	{mso-style-priority:34;=0A=
+	margin-top:0in;=0A=
+	margin-right:0in;=0A=
+	margin-bottom:10.0pt;=0A=
+	margin-left:.5in;=0A=
+	mso-add-space:auto;=0A=
+	line-height:115%;=0A=
+	font-size:11.0pt;=0A=
+	font-family:"Calibri",sans-serif;}=0A=
+p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoListParag=
+raphCxSpFirst=0A=
+	{mso-style-priority:34;=0A=
+	mso-style-type:export-only;=0A=
+	margin-top:0in;=0A=
+	margin-right:0in;=0A=
+	margin-bottom:0in;=0A=
+	margin-left:.5in;=0A=
+	margin-bottom:.0001pt;=0A=
+	mso-add-space:auto;=0A=
+	line-height:115%;=0A=
+	font-size:11.0pt;=0A=
+	font-family:"Calibri",sans-serif;}=0A=
+p.MsoListParagraphCxSpMiddle, li.MsoListParagraphCxSpMiddle, div.MsoListPar=
+agraphCxSpMiddle=0A=
+	{mso-style-priority:34;=0A=
+	mso-style-type:export-only;=0A=
+	margin-top:0in;=0A=
+	margin-right:0in;=0A=
+	margin-bottom:0in;=0A=
+	margin-left:.5in;=0A=
+	margin-bottom:.0001pt;=0A=
+	mso-add-space:auto;=0A=
+	line-height:115%;=0A=
+	font-size:11.0pt;=0A=
+	font-family:"Calibri",sans-serif;}=0A=
+p.MsoListParagraphCxSpLast, li.MsoListParagraphCxSpLast, div.MsoListParagra=
+phCxSpLast=0A=
+	{mso-style-priority:34;=0A=
+	mso-style-type:export-only;=0A=
+	margin-top:0in;=0A=
+	margin-right:0in;=0A=
+	margin-bottom:10.0pt;=0A=
+	margin-left:.5in;=0A=
+	mso-add-space:auto;=0A=
+	line-height:115%;=0A=
+	font-size:11.0pt;=0A=
+	font-family:"Calibri",sans-serif;}=0A=
+span.EmailStyle17=0A=
+	{mso-style-type:personal-compose;=0A=
+	font-family:"Calibri",sans-serif;=0A=
+	color:windowtext;}=0A=
+.MsoChpDefault=0A=
+	{mso-style-type:export-only;=0A=
+	font-family:"Calibri",sans-serif;}=0A=
+@page WordSection1=0A=
+	{size:8.5in 11.0in;=0A=
+	margin:1.0in 1.0in 1.0in 1.0in;}=0A=
+div.WordSection1=0A=
+	{page:WordSection1;}=0A=
+/* List Definitions */=0A=
+@list l0=0A=
+	{mso-list-id:629827593;=0A=
+	mso-list-type:hybrid;=0A=
+	mso-list-template-ids:-326723500 67698693 67698713 67698715 67698703 67698=
+713 67698715 67698703 67698713 67698715;}=0A=
+@list l0:level1=0A=
+	{mso-level-number-format:bullet;=0A=
+	mso-level-text:\F0A7;=0A=
+	mso-level-tab-stop:none;=0A=
+	mso-level-number-position:left;=0A=
+	margin-left:58.5pt;=0A=
+	text-indent:-.25in;=0A=
+	font-family:Wingdings;}=0A=
+@list l0:level2=0A=
+	{mso-level-number-format:alpha-lower;=0A=
+	mso-level-tab-stop:none;=0A=
+	mso-level-number-position:left;=0A=
+	margin-left:94.5pt;=0A=
+	text-indent:-.25in;}=0A=
+@list l0:level3=0A=
+	{mso-level-number-format:roman-lower;=0A=
+	mso-level-tab-stop:none;=0A=
+	mso-level-number-position:right;=0A=
+	margin-left:130.5pt;=0A=
+	text-indent:-9.0pt;}=0A=
+@list l0:level4=0A=
+	{mso-level-tab-stop:none;=0A=
+	mso-level-number-position:left;=0A=
+	margin-left:166.5pt;=0A=
+	text-indent:-.25in;}=0A=
+@list l0:level5=0A=
+	{mso-level-number-format:alpha-lower;=0A=
+	mso-level-tab-stop:none;=0A=
+	mso-level-number-position:left;=0A=
+	margin-left:202.5pt;=0A=
+	text-indent:-.25in;}=0A=
+@list l0:level6=0A=
+	{mso-level-number-format:roman-lower;=0A=
+	mso-level-tab-stop:none;=0A=
+	mso-level-number-position:right;=0A=
+	margin-left:238.5pt;=0A=
+	text-indent:-9.0pt;}=0A=
+@list l0:level7=0A=
+	{mso-level-tab-stop:none;=0A=
+	mso-level-number-position:left;=0A=
+	margin-left:274.5pt;=0A=
+	text-indent:-.25in;}=0A=
+@list l0:level8=0A=
+	{mso-level-number-format:alpha-lower;=0A=
+	mso-level-tab-stop:none;=0A=
+	mso-level-number-position:left;=0A=
+	margin-left:310.5pt;=0A=
+	text-indent:-.25in;}=0A=
+@list l0:level9=0A=
+	{mso-level-number-format:roman-lower;=0A=
+	mso-level-tab-stop:none;=0A=
+	mso-level-number-position:right;=0A=
+	margin-left:346.5pt;=0A=
+	text-indent:-9.0pt;}=0A=
+@list l1=0A=
+	{mso-list-id:1134375236;=0A=
+	mso-list-type:hybrid;=0A=
+	mso-list-template-ids:1680000432 2065064394 1074331673 1074331675 10743316=
+63 1074331673 1074331675 1074331663 1074331673 1074331675;}=0A=
+@list l1:level1=0A=
+	{mso-level-number-format:bullet;=0A=
+	mso-level-text:\F0A0;=0A=
+	mso-level-tab-stop:none;=0A=
+	mso-level-number-position:left;=0A=
+	text-indent:-.25in;=0A=
+	font-family:Wingdings;}=0A=
+@list l1:level2=0A=
+	{mso-level-number-format:alpha-lower;=0A=
+	mso-level-tab-stop:none;=0A=
+	mso-level-number-position:left;=0A=
+	text-indent:-.25in;}=0A=
+@list l1:level3=0A=
+	{mso-level-number-format:roman-lower;=0A=
+	mso-level-tab-stop:none;=0A=
+	mso-level-number-position:right;=0A=
+	text-indent:-9.0pt;}=0A=
+@list l1:level4=0A=
+	{mso-level-tab-stop:none;=0A=
+	mso-level-number-position:left;=0A=
+	text-indent:-.25in;}=0A=
+@list l1:level5=0A=
+	{mso-level-number-format:alpha-lower;=0A=
+	mso-level-tab-stop:none;=0A=
+	mso-level-number-position:left;=0A=
+	text-indent:-.25in;}=0A=
+@list l1:level6=0A=
+	{mso-level-number-format:roman-lower;=0A=
+	mso-level-tab-stop:none;=0A=
+	mso-level-number-position:right;=0A=
+	text-indent:-9.0pt;}=0A=
+@list l1:level7=0A=
+	{mso-level-tab-stop:none;=0A=
+	mso-level-number-position:left;=0A=
+	text-indent:-.25in;}=0A=
+@list l1:level8=0A=
+	{mso-level-number-format:alpha-lower;=0A=
+	mso-level-tab-stop:none;=0A=
+	mso-level-number-position:left;=0A=
+	text-indent:-.25in;}=0A=
+@list l1:level9=0A=
+	{mso-level-number-format:roman-lower;=0A=
+	mso-level-tab-stop:none;=0A=
+	mso-level-number-position:right;=0A=
+	text-indent:-9.0pt;}=0A=
+@list l2=0A=
+	{mso-list-id:1972051806;=0A=
+	mso-list-type:hybrid;=0A=
+	mso-list-template-ids:1193187610 2065064394 1074331673 1074331675 10743316=
+63 1074331673 1074331675 1074331663 1074331673 1074331675;}=0A=
+@list l2:level1=0A=
+	{mso-level-number-format:bullet;=0A=
+	mso-level-text:\F0A0;=0A=
+	mso-level-tab-stop:none;=0A=
+	mso-level-number-position:left;=0A=
+	text-indent:-.25in;=0A=
+	font-family:Wingdings;}=0A=
+@list l2:level2=0A=
+	{mso-level-number-format:alpha-lower;=0A=
+	mso-level-tab-stop:none;=0A=
+	mso-level-number-position:left;=0A=
+	text-indent:-.25in;}=0A=
+@list l2:level3=0A=
+	{mso-level-number-format:roman-lower;=0A=
+	mso-level-tab-stop:none;=0A=
+	mso-level-number-position:right;=0A=
+	text-indent:-9.0pt;}=0A=
+@list l2:level4=0A=
+	{mso-level-tab-stop:none;=0A=
+	mso-level-number-position:left;=0A=
+	text-indent:-.25in;}=0A=
+@list l2:level5=0A=
+	{mso-level-number-format:alpha-lower;=0A=
+	mso-level-tab-stop:none;=0A=
+	mso-level-number-position:left;=0A=
+	text-indent:-.25in;}=0A=
+@list l2:level6=0A=
+	{mso-level-number-format:roman-lower;=0A=
+	mso-level-tab-stop:none;=0A=
+	mso-level-number-position:right;=0A=
+	text-indent:-9.0pt;}=0A=
+@list l2:level7=0A=
+	{mso-level-tab-stop:none;=0A=
+	mso-level-number-position:left;=0A=
+	text-indent:-.25in;}=0A=
+@list l2:level8=0A=
+	{mso-level-number-format:alpha-lower;=0A=
+	mso-level-tab-stop:none;=0A=
+	mso-level-number-position:left;=0A=
+	text-indent:-.25in;}=0A=
+@list l2:level9=0A=
+	{mso-level-number-format:roman-lower;=0A=
+	mso-level-tab-stop:none;=0A=
+	mso-level-number-position:right;=0A=
+	text-indent:-9.0pt;}=0A=
+ol=0A=
+	{margin-bottom:0in;}=0A=
+ul=0A=
+	{margin-bottom:0in;}=0A=
+--></style><!--[if gte mso 9]><xml>=0A=
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />=0A=
+</xml><![endif]--><!--[if gte mso 9]><xml>=0A=
+<o:shapelayout v:ext=3D"edit">=0A=
+<o:idmap v:ext=3D"edit" data=3D"1" />=0A=
+</o:shapelayout></xml><![endif]--></head><body lang=3D"EN-US" link=3D"#0563=
+C1" vlink=3D"#954F72"><div class=3D"WordSection1"><p class=3D"MsoNormal" st=
+yle=3D"line-height:150%"><span style=3D"font-size:10.0pt;line-height:150%;f=
+ont-family:&quot;Trebuchet MS&quot;,sans-serif">HI Manoj Kumar PS,<o:p></o:=
+p></span></p><p class=3D"MsoListParagraph" style=3D"mso-margin-top-alt:0in;=
+margin-right:0in;margin-bottom:0in;margin-left:.25in;margin-bottom:.0001pt;=
+mso-add-space:auto;text-indent:-.25in;mso-list:l0 level1 lfo1"><![if !suppo=
+rtLists]><span style=3D"font-size:10.0pt;line-height:115%;font-family:Wingd=
+ings"><span style=3D"mso-list:Ignore">&sect;<span style=3D"font:7.0pt &quot=
+;Times New Roman&quot;">&nbsp; </span></span></span><![endif]><span style=
+=3D"font-size:10.0pt;line-height:115%;font-family:&quot;Trebuchet MS&quot;,=
+sans-serif">We value your association with Cognizant and also understand th=
+e fact that the discussion on the final decision is still in progress, howe=
+ver as per the offer terms your last working day has been automatically upd=
+ated by the system as <i>05/03/2024 (Friday) </i> and this may be subject t=
+o change. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <o:p></o:p></span></p><p class=3D"=
+MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Trebuchet MS&q=
+uot;,sans-serif"><o:p>&nbsp;</o:p></span></p><br><table class=3D"MsoTableGr=
+id" border=3D"1" cellspacing=3D"0" cellpadding=3D"0" width=3D"0" style=3D"w=
+idth:256.5pt;margin-left:23.4pt;border-collapse:collapse;border:none"><tr s=
+tyle=3D"height:15.7pt">=0A=
+<td width=3D"73" style=3D"width:55.05pt;border:solid #00B050 1.0pt;backgrou=
+nd:#92D050;padding:0in 5.4pt 0in 5.4pt;height:15.7pt"><p class=3D"MsoNormal=
+" align=3D"center" style=3D"margin-left:3.25pt;text-align:center"><span sty=
+le=3D"font-size:10.0pt;font-family:&quot;Trebuchet MS&quot;,sans-serif">ID<=
+o:p></o:p></span></p></td><td width=3D"137" style=3D"width05/03/2024.45pt;b=
+order:solid #00B050 1.0pt;border-left:none;background:#92D050;padding:0in 5=
+.4pt 0in 5.4pt;height:15.7pt"><p class=3D"MsoNormal" align=3D"center" style=
+=3D"text-align:center"><span style=3D"font-size:10.0pt;font-family:&quot;Tr=
+ebuchet MS&quot;,sans-serif">Associate Name<o:p></o:p></span></p></td><td w=
+idth=3D"132" style=3D"width:99.0pt;border:solid #00B050 1.0pt;border-left:n=
+one;background:#92D050;padding:0in 5.4pt 0in 5.4pt;height:15.7pt"><p class=
+=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><span style=3D"=
+font-size:10.0pt;font-family:&quot;Trebuchet MS&quot;,sans-serif">Last Work=
+ing Date<o:p></o:p></span></p>=0A=
+<p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><span s=
+tyle=3D"font-size:10.0pt;font-family:&quot;Trebuchet MS&quot;,sans-serif">(=
+mm/dd/yyyy)<o:p></o:p></span></p></td></tr>=0A=
+<tr style=3D"height:13.45pt"><td width=3D"73" valign=3D"top" style=3D"width=
+:55.05pt;border:solid #00B050 1.0pt;border-top:none;padding:0in 5.4pt 0in 5=
+.4pt;height:13.45pt"><p class=3D"MsoNormal"><span style=3D"font-size:10.0pt=
+;font-family:&quot;Trebuchet MS&quot;,sans-serif"><o:p>908394</o:p></span><=
+/p></td><td width=3D"137" valign=3D"top" style=3D"width05/03/2024.45pt;bord=
+er-top:none;border-left:none;border-bottom:solid #00B050 1.0pt;border-right=
+:solid #00B050 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:13.45pt"><p class=
+=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Trebuchet =
+MS&quot;,sans-serif"><o:p>Manoj Kumar PS</o:p></span></p></td><td width=3D"=
+132" valign=3D"top" style=3D"width:99.0pt;border-top:none;border-left:none;=
+border-bottom:solid #00B050 1.0pt;border-right:solid #00B050 1.0pt;padding:=
+0in 5.4pt 0in 5.4pt;height:13.45pt"><p class=3D"MsoNormal"><span style=3D"f=
+ont-size:10.0pt;font-family:&quot;Trebuchet MS&quot;,sans-serif"><o:p>05/03=
+/2024</o:p></span></p></td></tr></table><br><p class=3D"MsoNormal"><span st=
+yle=3D"font-size:10.0pt;font-family:&quot;Trebuchet MS&quot;,sans-serif">&n=
+bsp;&nbsp; <o:p></o:p></span></p><p class=3D"MsoListParagraphCxSpFirst" sty=
+le=3D"margin-right:5.25pt;mso-add-space:auto;text-align:justify;text-indent=
+:-.25in;mso-list:l2 level1 lfo2"><![if !supportLists]><span style=3D"font-s=
+ize:10.0pt;line-height:115%;font-family:Wingdings"><span style=3D"mso-list:=
+Ignore">&nbsp;<span style=3D"font:7.0pt &quot;Times New Roman&quot;">&nbsp;=
+&nbsp; </span></span></span><![endif]><span style=3D"font-size:10.0pt;line-=
+height:115%;font-family:&quot;Trebuchet MS&quot;,sans-serif">Should there b=
+e any concerns, please reach out to your <a href=3D"https://compass.talent.=
+cognizant.com/psp/HCMPRD/EMPLOYEE/HRMS/c/CT_ROLE_EMPLOYEE.CT_HCMSUP_DTLS.GB=
+L?FolderPath=3DPORTAL_ROOT_OBJECT.CO_EMPLOYEE_SELF_SERVICE.HC_PERSONAL_INFO=
+_ESS.CT_HCMSUP_DTLS_GBL&amp;IsFolder=3Dfalse&amp;IgnoreParamT"><span style=
+=3D"color:#0070C0">Home Manager/ talent manager</span></a><span style=3D"co=
+lor:#0070C0"> </span><o:p></o:p></span></p><p class=3D"MsoListParagraphCxSp=
+Middle" style=3D"margin-right:5.25pt;mso-add-space:auto;text-align:justify;=
+text-indent:-.25in;mso-list:l2 level1 lfo2"><![if !supportLists]><span styl=
+e=3D"font-size:10.0pt;line-height:115%;font-family:Wingdings"><span style=
+=3D"mso-list:Ignore">&nbsp;<span style=3D"font:7.0pt &quot;Times New Roman&=
+quot;">&nbsp;&nbsp; </span></span></span><![endif]><span style=3D"font-size=
+:10.0pt;line-height:115%;font-family:&quot;Trebuchet MS&quot;,sans-serif"><=
+b>Kindly note, your salary processing during notice period is subject to cl=
+earance of dues;</b> you can log into Clearance App in One Cognizant (4 hou=
+rs post update of LWD) to track and close on your dues, if any. <o:p></o:p>=
+</span></p><p class=3D"MsoListParagraphCxSpMiddle" style=3D"mso-margin-top-=
+alt:0in;margin-right:5.25pt;margin-bottom:10.0pt;margin-left:.25in;mso-add-=
+space:auto;text-align:justify"><span style=3D"font-size:10.0pt;line-height:=
+115%;font-family:&quot;Trebuchet MS&quot;,sans-serif"><o:p>&nbsp;</o:p></sp=
+an></p><br><p class=3D"MsoListParagraphCxSpMiddle" style=3D"mso-margin-top-=
+alt:0in;margin-right:5.25pt;margin-bottom:10.0pt;margin-left:.25in;mso-add-=
+space:auto;text-align:justify;text-indent:-.25in;mso-list:l0 level1 lfo1"><=
+![if !supportLists]><span style=3D"font-size:10.0pt;line-height:115%;font-f=
+amily:Wingdings"><span style=3D"mso-list:Ignore">&sect;<span style=3D"font:=
+7.0pt &quot;Times New Roman&quot;">&nbsp; </span></span></span><![endif]><s=
+pan style=3D"font-size:10.0pt;line-height:115%;font-family:&quot;Trebuchet =
+MS&quot;,sans-serif">Please note summary on Leaves during notice period:<o:=
+p></o:p></span></p><br><ul style=3D"list-style-type:circle">=0A=
+<li><span style=3D"font-size:10.0pt;line-height:115%;font-family:&quot;Treb=
+uchet MS&quot;,sans-serif">Availing Leave during the notice period is not e=
+ncouraged. <o:p></o:p></span></li>=0A=
+<li><span style=3D"font-size:10.0pt;line-height:115%;font-family:&quot;Treb=
+uchet MS&quot;,sans-serif">In case of any Medical emergency only <b>Sick le=
+aves</b> (for up to 3 days) can be availed with HCM Supervisor approval (su=
+bject to availability of Sick leave balance). <o:p></o:p></span></li>=0A=
+<li><span style=3D"font-size:10.0pt;line-height:115%;font-family:&quot;Treb=
+uchet MS&quot;,sans-serif"><b>Compensatory Off</b> (subject to availability=
+ of Comp Off leave balance) /<b>LOP leaves</b> can be availed only when HCM=
+ Supervisor approves.<o:p></o:p></span></li>=0A=
+<li><span style=3D"font-size:10.0pt;line-height:115%;font-family:&quot;Treb=
+uchet MS&quot;,sans-serif"><b>Casual leaves and Earned leaves</b> cannot be=
+ availed during the Notice period.<o:p></o:p></span></li>=0A=
+<li><span style=3D"font-size:10.0pt;line-height:115%;font-family:&quot;Treb=
+uchet MS&quot;,sans-serif"><b>LOP leave</b> can be availed for any other em=
+ergency other than sickness with HCM Supervisor approval.<o:p></o:p></span>=
+</li>=0A=
+<li><span style=3D"font-size:10.0pt;line-height:115%;font-family:&quot;Treb=
+uchet MS&quot;,sans-serif"><b>Paternity leave</b> can be availed by Men Ass=
+ociates with HCM Supervisor approval and Medical documentation.<o:p></o:p><=
+/span></li></ul><br><br><br><p class=3D"MsoNormal"><span style=3D"font-size=
+:10.0pt;font-family:&quot;Trebuchet MS&quot;,sans-serif">Thank you,<o:p></o=
+:p></span></p><br><p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;fo=
+nt-family:&quot;Trebuchet MS&quot;,sans-serif">Exit Helpdesk &#8211; India<=
+o:p></o:p></span></p><p class=3D"MsoNormal"><span style=3D"font-size:10.0pt=
+;font-family:&quot;Trebuchet MS&quot;,sans-serif"><o:p>&nbsp;</o:p></span><=
+/p><p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p></div></body></html>=0A=
+<b>Important Note:</b>=0A=
+<br><br>=0A=
+1.<i>We take this opportunity to remind you of the applicable non-solicitat=
+ion and non-compete obligations forming part of employment documents. Pleas=
+e note that you are prohibited from carrying away or disclosing any proprie=
+tary and/or confidential information of Cognizant. <b><i>Further, you shall=
+ not get associated with any Client of Cognizant, directly or indirectly th=
+rough a Competitor of Cognizant, including the last and most recent Client =
+supported by you during your tenure with Cognizant</i></b>.<i>Please also n=
+ote that these obligations shall continue to remain effective even after ce=
+ssation of your employment at Cognizant and in the event you are found to b=
+e in breach of these terms, such act would be considered to be a serious vi=
+olation of these obligations.</i>=0A=
+ <br>=0A=
+<i>Please also note that Cognizant won't hesitate to take any requisite leg=
+al action against you for breach of the obligations mentioned hereinabove f=
+or the purpose of protecting interests of Cognizant and its Clients. Any su=
+ch breach of obligations may lead to litigation against you &amp; your pros=
+pective employer and we also expressly reserve our right to pursue other re=
+medies available to us under law and equity.</i>=0A=
+<br><br>=0A=
+2.<i>Please note that all the Company assets (including, without limitation=
+, Company/client provided laptops, desktops, cellphones,data cards,USB stic=
+ks,documents,security cards etc.)have been provided to you purely for meeti=
+ng project deliverables and business purposes. Accordingly, you must return=
+ all Company or client assets in your possession to the respective Cognizan=
+t point of contact or as per the defined process in your country promptly o=
+n request or no later than your last working day before leaving Cognizant, =
+whichever is earlier. =0A=
+<br><br>=0A=
+3.Cognizant reserves the right (subject to applicable law) to wipe any or a=
+ll data, applications and other information or property from these Company =
+assets before or after your last working day. Failure to return assets as s=
+et out in this notice or as may otherwise be required by Cognizant makes yo=
+u liable to Cognizant for the value of the withheld assets, and this value =
+may (subject to applicable local law) be deducted from any payments due to =
+you from Cognizant. Regardless of whether or not such payments have been de=
+ducted, Cognizant also reserves its rights to commence legal proceedings ag=
+ainst you to=0A=
+recover any withheld assets and/or to notify the local police force or othe=
+r law enforcement authority and/or your prospective employer regarding your=
+ failure to return such company assets.=0A=
+<br><br>=0A=
+4.Timesheet entry is mandatory for all Cognizant associates including those=
+ in non-billable and corporate roles. Associates on Notice Period are also =
+mandated to submit Timesheets until the Last Working Date (LWD).Kindly ensu=
+re to submit the timesheet on time.You can access the timesheet module usin=
+g Desktop/Laptop/Mobile/Tablet for submitting the timesheet.</i><br><br><br=
+>=0A=
+* Please do not reply to this email as it is an auto generated trigger=0A=
+<tr id=3D"RequestDetails"></tr>=0A=
+<tr id=3D"RequestInformation"></tr>=0A=
+<tr id=3D"RequestOtherDetails"></tr>=0A=
+<tr id=3D"ApprovalMethods"></tr>=0A=
+<tr id=3D"twoWayReplyButtons"></tr>=0A=
+<tr id=3D"valedictionSection"></tr>=0A=
+<tr id=3D"twoWayReplyButtons"> =0A=
+</table></div></td></tr></table></td></tr><tr id=3D"AutoGeneratedMailOneWay=
+">                     <td>                                 <table width=3D=
+"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">                   =
+                    <tr>                           <td class=3D"psnote">   =
+                             <p>** This is an auto generated mail. Please d=
+o not reply. **</p>                      </td>                             =
+                </tr>                    <!-- <tr style=3D"height:10px;"></=
+tr> -->                                  <tr id=3D"mobilityPromo">         =
+               <td style=3D"text-align: center;">                          =
+<a target=3D"_blank" href=3D"https://onecognizant.cognizant.com/">         =
+                             <img style=3D"width: 90%;" src=3D"https://1ct.=
+es/343/Images/info.png" alt=3D"mobile promotion">                          =
+        </a>                           </td>                           </tr=
+>                                      <!-- <tr style=3D"height:10px;"></tr=
+>-->                        </table>                        </td>          =
+            </tr><tr id=3D"footerImage">  <table class=3D"wide" border=3D"0=
+" cellspacing=3D"0" cellpadding=3D"0">  <tr>  <td class=3D"foot-img1">  <p =
+style=3D"color: #000048;margin: 12px 0;font-size: 14px; padding-top:12px;">=
+  <span>&copy;</span>  2024 Cognizant. All Rights Reserved. &nbsp; | &nbsp;=
+ <span>IT</span>  </p>  </td>  <td>  <img src=3D"https://1ct.es/343/Images/=
+footerImageTemplate2.jpg"></td></tr></table></tr></table>
+                </center>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
+
